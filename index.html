@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baku Jukebox — Azerbaijan Online Radiostation</title>
+    <link rel="icon" href="images/cropped-LOGO-1-1-32x32.png" sizes="32x32">
+    <link rel="icon" href="images/cropped-LOGO-1-1-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="images/cropped-LOGO-1-1-180x180.png">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/03990c771c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <a href="index.html"><img src="images/texticon-300x206.png" alt=""></a>
+                </div>
+                <nav class="nav-bar"></nav>
+            </div>
+        </div>
+    </header>
+    <body>
+        <section class="jumbotron">
+            <div class="elementor-background-overlay"></div>
+            <div class="elementor-container">
+                <div class="elementor-row">
+                    <div class="elementor-column">
+                        <div class="elementor-column-wrap">
+                            <div class="elementor-widget-wrap"></div>
+                        </div>
+                    </div>
+                    <div class="elementor-column">
+                        <div class="elementor-column-wrap elementor-element-populated">
+                            <div class="elementor-widget-wrap music-player">
+                               <div class="player-wrapper">
+                                    <div class="top-bar">
+                                        <i class="fas fa-chevron-down"></i>
+                                        <span>Now Playing</span>
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </div>
+                                    <div class="img-area">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="song-details">
+                                        <p class="name"></p>
+                                        <p class="artist"></p>
+                                    </div>
+                                    <div class="progress-area">
+                                        <div class="progress-bar">
+                                            <audio id="main-audio" src=""></audio>
+                                        </div>
+                                        <div class="song-timer">
+                                            <span class="current-time">0:00</span>
+                                            <span class="max-duration">0:00</span>
+                                        </div>
+                                    </div>
+                                    <div class="player-controls">
+                                        <i id="repeat-plist" class="fas fa-redo-alt material-icons" title="Playlist looped" style="visibility: hidden;"></i>
+                                        <i id="prev" class="material-icons fas fa-backward"></i>
+                                        <div class="play-pause">
+                                            <i class="material-icons play fas fa-play"></i>
+                                        </div>
+                                        
+                                        <i id="next" class="material-icons fas fa-forward"></i>
+                                        <i id="more-music" class="fas fa-chevron-circle-down material-icons"></i>
+                                    </div>
+                                    <div class="music-list">
+                                        <div class="music-list-header">
+                                            <div class="music-list-row">
+                                                
+                                                <i class= "fas fa-chevron-circle-down list material-icons"></i>
+                                                <span>Music list</span>
+                                            </div>
+                                            <i id="close" class="material-icons fas fa-times"></i>
+                                        </div>
+                                        <ul>
+                                          <!-- here li list are coming from js -->
+                                        </ul>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <footer class="footer">
+        <div class="container">
+            <div class="row elementor-column-wrap">
+                <div class="elementor-widget-container">
+                    <div class="elementor-text-editor elementor-clearfix">
+                        <h2 style="text-align: center;">PROGRAM SCHEDULE</h2>	
+                    </div>
+                </div>
+                
+
+                <!-- Slider main container -->
+                <div class="swiper-container myswiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide">
+                            <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="images/slider-1.jpg" alt="avY11"></figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="images/slider-2.jpg" alt="avY11"></figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="images/slider-3.jpg" alt="avY11"></figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="images/slider-4.jpg" alt="avY11"></figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="images/slider-5.jpg" alt="avY11"></figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="images/slider-6.jpg" alt="avY11"></figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="images/slider-7.jpg" alt="avY11"></figure>
+                        </div>
+                    </div>
+                   
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"><i class="eicon-chevron-left" aria-hidden="true"></i></div>
+                    <div class="swiper-button-next"><i class="eicon-chevron-right" aria-hidden="true"></i></div>
+                
+                </div>
+                <div class="elementor-widget-divider" data-id="3116342" data-element_type="widget" data-widget_type="divider.default">
+                    <div class="elementor-widget-divider-container">
+                        <div class="elementor-divider">
+                            <span class="elementor-divider-separator"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-widget-text-editor">
+                    <div class="elementor-widget-container">
+                        <div class="elementor-text-editor elementor-clearfix">
+                            <p style="text-align: center;">First Jukebox ONLINE Radio in Azerbaijan.&nbsp;</p>
+                            <p style="text-align: center;">Why Jukebox? Because JukeBox its music machine with different genres.&nbsp;</p>
+                            <p style="text-align: center;">We have rock/garage/psychedelic/new wave/soul/jazz/funk/ost/classic/folk/indie/pop/soviet music/oldschool</p>
+                            <p style="text-align: center;">hip-hop and even modern music…</p>					
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-widget-divider" data-id="3116342" data-element_type="widget" data-widget_type="divider.default">
+                    <div class="elementor-widget-divider-container">
+                        <div class="elementor-divider">
+                            <span class="elementor-divider-separator"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-shape-circle">
+                    <div class="elementor-widget-container">
+                        <div class="elementor-social-icons-wrapper elementor-grid">
+                            <div class="elementor-grid-item">
+                                <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-a0a11ec" href="https://www.facebook.com/bkjbox" target="_blank">
+                                    <span class="elementor-screen-only">Facebook-f</span>
+                                    <i class="fa fab fa-facebook-f"></i>					
+                                </a>
+                            </div>
+                            <div class="elementor-grid-item">
+                                <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-5a79ef3" href="https://www.instagram.com/bakujukebox/" target="_blank">
+                                    <span class="elementor-screen-only">Twitter</span>
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="elementor-grid-item">
+                                <a class="elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-c5f530e" href="http://radio.garden/listen/baku-jukebox/RHuXuT3X" target="_blank">
+                                    <span class="elementor-screen-only"></span>
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </div>
+                            <div class="elementor-grid-item">
+                                <a class="elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-1a18aef" href="https://tunein.com/radio/BAKU-JUKEBOX-s263460/" target="_blank">
+                                    <span class="elementor-screen-only"></span>
+                                    <i class="fa fa-wordpress"></i>
+                                 </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element-3ced856">
+                    <div class="container elementor-widget-container">
+                        <div class="elementor-text-editor">
+                            <p>E-mail: info@bakujukebox.com</p>
+                            <p>Phone: +994506206961</p>     
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="elementor-widget-divider" data-id="3116342" data-element_type="widget" data-widget_type="divider.default">
+                    <div class="elementor-widget-divider-container">
+                        <div class="elementor-divider">
+                            <span class="elementor-divider-separator"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element-3c47e56d">
+                    <div class="elementor-widget-container container">
+                        <div class="elementor-text-editor">
+                            <strong>© 2021 BakuJukebox Azerbaijan, Baku</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <!-- <script>
+       var swiper = new Swiper(".myswiper", {
+         spaceBetween: 30,
+         centeredSlides: true,
+         autoplay: {
+           delay: 7500,
+           disableOnInteraction: false,
+         },
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: false,
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+         },
+       });
+     </script> -->
+     <script>
+        var swiper = new Swiper(".myswiper", {
+          slidesPerView: 'auto',
+          loop: true,
+          speed: 3000,
+          effect: "fade",
+           fadeEffect: {
+                crossFade: true
+            },
+          autoplay: {
+           delay: 3000,
+           disableOnInteraction: false,
+         },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+      <script src="main.js"></script>
+</body>
+</html>
